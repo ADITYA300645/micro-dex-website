@@ -12,7 +12,7 @@ function Appbar({ links }) {
                 <div
                     className={`${josefin_Sans.className} font-black text-xl dark:text-[#eee] text-[#434343]`}
                 >
-                    Sarthi
+                    Micro-Dex
                 </div>
                 <div className="flex [&>*]:mx-2">
                     {Object.entries(links).map(([label, path], index) => (

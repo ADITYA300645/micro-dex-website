@@ -11,7 +11,6 @@ function ProductsInfo() {
             <div className="w-11/12">
                 <WindowsAppInfo></WindowsAppInfo>
                 <WindowsAppInfo></WindowsAppInfo>
-                <WindowsAppInfo></WindowsAppInfo>
             </div>
         </div>
     );
