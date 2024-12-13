@@ -6,7 +6,7 @@ import { SiJirasoftware } from "react-icons/si";
 
 function ProductsCategory() {
     return (
-        <div className="flex flex-col items-center justify-start h-[46rem] bg-[#FFFFFF25] pl-5 sticky top-14 -z-10">
+        <div className="flex flex-col items-center justify-start h-[46rem] bg-[#37373767] pl-5 sticky top-14 -z-10">
             <div className="m-4">Our Prodcts</div>
             <div className="w-[95%] hover:[&>*]:bg-white transition-all duration-150">
                 <div className="my-[4px] bg-[#F0E3E790] py-4 px-2 rounded flex items-center [&>*]:mx-2">

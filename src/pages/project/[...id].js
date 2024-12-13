@@ -1,3 +1,5 @@
+'use client'
+
 import { useState, useEffect } from "react";
 import Head from "next/head";
 import { useRouter } from "next/router";
@@ -8,8 +10,9 @@ import AskAI from "./components/AskAI";
 import Timeline from "./components/Timeline";
 import Tasks from "./components/Tasks";
 import Appbar from "@/components/Appbar/Appbar";
-import { Alert, AlertDescription } from "./components/ui/alert";
-import { Button } from "./components/ui/button";
+import Alert from "./components/ui/alert";
+import  AlertDescription  from "./components/ui/AlertDescription";
+import  Button from "./components/ui/button";
 
 export default function ProjectManagement() {
     const [activeTab, setActiveTab] = useState("Overview");
@@ -65,10 +68,6 @@ export default function ProjectManagement() {
                 } catch (error) {
                     console.warn("Failed to fetch commit activity:", error);
                 }
-
-                console.log(repoData);
-                console.log(issuesData);
-                console.log(commitActivity);
 
                 const transformedData = {
                     title: repoData?.name || "N/A",
